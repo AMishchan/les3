@@ -25,9 +25,9 @@ public class Main {
                 {1,2,3,4,5,6,7,8},
                 {1,2,3,4,5,6,7,8},
                 {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
+                {1,2,3,4,5,6,7,8}
         };
-for (int a = 0; a < ver.length; a++){
+for (int a = 0; a < hor.length; a++){
     for (int b = 0; b < ver[a].length; b++){
         System.out.print("|" + hor[a] + ver[a][b]);
     }System.out.print("|\n-------------------------\n");
