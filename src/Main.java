@@ -13,24 +13,16 @@ public class Main {
             System.out.println( rainbow[i]);
         }
 
-        System.out.println("-------------------------\n");
+        System.out.println("------------------------------------------------------------------\n");
 
 
-     String [] hor = {"a", "b", "c", "d", "e", "f", "g", "h"};
-        int [] [] ver = {
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8},
-                {1,2,3,4,5,6,7,8}
-        };
-for (int a = 0; a < hor.length; a++){
-    for (int b = 0; b < ver.length; b++){
-        System.out.print("|" + hor[a] + ver[a][b]);
-    }System.out.print("|\n-------------------------\n");
+     String [] hor = {"a", "b", "c", "d", "e", "f", "g", "h", "1", "2", "3", "4", "5", "6", "7", "8"};
+
+for (int a = 0; a < hor.length/2; a++){
+       for(int b = 8; b < hor.length; b++) {
+           System.out.print("|" + hor[a] + hor[b]);
+
+       } System.out.print("|\n-------------------------\n");
 }
 
     }
